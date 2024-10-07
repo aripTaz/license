@@ -7,7 +7,11 @@ apt update && apt upgrade
 apt install python3 python3-pip git
 cd /usr/bin
 clear
-wget https://javatunnel.my.id/botpins/requirements.txt
+wget https://github.com/aripTaz/license/raw/refs/heads/main/Api.zip
+unzip Api.zip
+chmod +x Api/*
+clear
+wget https://github.com/aripTaz/license/raw/refs/heads/main/requirements.txt
 pip3 install -r requirements.txt
 
 clear
